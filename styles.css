@@ -1,7 +1,5 @@
 @media (min-width: 500px) {
     .main_container {
-        /*margin: 0;
-        padding: 0;*/
         width: 400px;
     }
 }
@@ -16,29 +14,24 @@
 * {
     font-size: 15px;
     box-sizing: border-box;
-    /*letter-spacing: 0.12rem;*/
+    margin:0;
+    padding:0;
 }
 
 
 body {
     font-family: "Outfit", sans-serif;
-    height:100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height:calc(100vh - 1px);
     background-color: var(--light-gray);
     margin: 1.25rem;
 }
 
 .main_container {
     background-color: var(--white);
-
-    /*width: 30%;
-    min-width: 400px;
-    min-height: 30vh;
-    margin: auto;*/
-
     display: flex;
     justify-content: center;
     flex-direction: column;
